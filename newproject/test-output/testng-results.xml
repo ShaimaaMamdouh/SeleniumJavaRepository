@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-14T15:47:26 EET" name="Default suite" finished-at="2020-06-14T15:47:52 EET" duration-ms="26203">
+    <groups>
+    </groups>
+    <test started-at="2020-06-14T15:47:26 EET" name="Default test" finished-at="2020-06-14T15:47:52 EET" duration-ms="26203">
+      <class name="newpackage.firsttestngfile">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:newpackage.firsttestngfile@402e37bc]" started-at="2020-06-14T15:47:26 EET" name="launchBrowser" finished-at="2020-06-14T15:47:41 EET" duration-ms="15468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="verifyHomepageTitle()[pri:0, instance:newpackage.firsttestngfile@402e37bc]" started-at="2020-06-14T15:47:41 EET" name="verifyHomepageTitle" finished-at="2020-06-14T15:47:41 EET" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method signature="register()[pri:0, instance:newpackage.firsttestngfile@402e37bc]" started-at="2020-06-14T15:47:41 EET" name="register" finished-at="2020-06-14T15:47:43 EET" duration-ms="1819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="goBackToHomepage()[pri:0, instance:newpackage.firsttestngfile@402e37bc]" started-at="2020-06-14T15:47:43 EET" name="goBackToHomepage" finished-at="2020-06-14T15:47:47 EET" duration-ms="3472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToHomepage -->
+        <test-method is-config="true" signature="verifyHomepageTitle()[pri:0, instance:newpackage.firsttestngfile@402e37bc]" started-at="2020-06-14T15:47:47 EET" name="verifyHomepageTitle" finished-at="2020-06-14T15:47:47 EET" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method signature="support()[pri:1, instance:newpackage.firsttestngfile@402e37bc]" started-at="2020-06-14T15:47:47 EET" name="support" finished-at="2020-06-14T15:47:49 EET" duration-ms="2095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- support -->
+        <test-method is-config="true" signature="goBackToHomepage()[pri:0, instance:newpackage.firsttestngfile@402e37bc]" started-at="2020-06-14T15:47:49 EET" name="goBackToHomepage" finished-at="2020-06-14T15:47:50 EET" duration-ms="1695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToHomepage -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:newpackage.firsttestngfile@402e37bc]" started-at="2020-06-14T15:47:50 EET" name="terminateBrowser" finished-at="2020-06-14T15:47:52 EET" duration-ms="1531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- newpackage.firsttestngfile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
