@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-14T16:33:10Z" name="Default suite" finished-at="2020-06-14T16:33:35Z" duration-ms="25404">
+    <groups>
+    </groups>
+    <test started-at="2020-06-14T16:33:10Z" name="Default test" finished-at="2020-06-14T16:33:35Z" duration-ms="25404">
+      <class name="automationByMaven.FirstTestingFile">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:automationByMaven.FirstTestingFile@1ed6388a]" started-at="2020-06-14T18:33:10Z" name="launchBrowser" finished-at="2020-06-14T18:33:22Z" duration-ms="12164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="verifyHomepageTitle()[pri:0, instance:automationByMaven.FirstTestingFile@1ed6388a]" started-at="2020-06-14T18:33:22Z" name="verifyHomepageTitle" finished-at="2020-06-14T18:33:22Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method signature="register()[pri:0, instance:automationByMaven.FirstTestingFile@1ed6388a]" started-at="2020-06-14T18:33:22Z" name="register" finished-at="2020-06-14T18:33:24Z" duration-ms="1939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="goBackToHomepage()[pri:0, instance:automationByMaven.FirstTestingFile@1ed6388a]" started-at="2020-06-14T18:33:24Z" name="goBackToHomepage" finished-at="2020-06-14T18:33:27Z" duration-ms="3183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToHomepage -->
+        <test-method is-config="true" signature="verifyHomepageTitle()[pri:0, instance:automationByMaven.FirstTestingFile@1ed6388a]" started-at="2020-06-14T18:33:27Z" name="verifyHomepageTitle" finished-at="2020-06-14T18:33:27Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method signature="support()[pri:1, instance:automationByMaven.FirstTestingFile@1ed6388a]" started-at="2020-06-14T18:33:27Z" name="support" finished-at="2020-06-14T18:33:31Z" duration-ms="3947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- support -->
+        <test-method is-config="true" signature="goBackToHomepage()[pri:0, instance:automationByMaven.FirstTestingFile@1ed6388a]" started-at="2020-06-14T18:33:31Z" name="goBackToHomepage" finished-at="2020-06-14T18:33:34Z" duration-ms="3216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToHomepage -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:automationByMaven.FirstTestingFile@1ed6388a]" started-at="2020-06-14T18:33:34Z" name="terminateBrowser" finished-at="2020-06-14T18:33:35Z" duration-ms="925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- automationByMaven.FirstTestingFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
