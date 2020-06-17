@@ -10,3 +10,11 @@
 - firsttestngfile.java
 - Myclass2.java
 - TestNGClass.java
+
+# Here is list of the existing classes in MercuryToursProject
+- LaunchBrowser
+- Login
+- FindFlights
+- CloseBrowser
+- TC1_FlightReservation
+
