@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeTest;
 public class LaunchBrowser {
 	public static WebDriver driver; 
 	@BeforeTest
-	public void LunchBrowser()
+	public void Lunch()
 	{
 		String driverPath="C:\\Users\\shaimaa.mohammed\\eclipse-workspace\\MercuryTours\\WebDrivers\\chromedriver_83.exe";
 		System.setProperty("webdriver.chrome.driver",driverPath);
@@ -25,10 +25,10 @@ public class LaunchBrowser {
 		actualTitle = driver.getTitle();
 		if (actualTitle.contentEquals(expectedTitle))
 		{
-			System.out.println("Test Passed!");
+			TC1_FlightReservation.test.pass("Browser launched successfully!");
 		} else 
 		{
-			System.out.println("Test Failed");
+			TC1_FlightReservation.test.fail("Browser wasn't launched successfully :(");
 		}
 	}
 

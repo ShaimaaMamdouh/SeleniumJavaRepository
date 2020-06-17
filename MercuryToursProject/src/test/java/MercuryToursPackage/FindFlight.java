@@ -16,17 +16,18 @@ public class FindFlight {
 		//Selecting August from "On" drop down list
 		LaunchBrowser.driver.findElement(By.xpath("//select[@name='fromMonth']//option[contains(text(),'August')]")).click();
 		LaunchBrowser.driver.findElement(By.name("findFlights")).click();
-		//String Noflights= LaunchBrowser.driver.findElement(By.xpath("/html[1]/body[1]/div[2]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[4]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/p[1]/font[1]/b[1]/font[1]")).getText();
+		String Noflights= LaunchBrowser.driver.findElement(By.xpath("/html[1]/body[1]/div[2]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[4]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/p[1]/font[1]/b[1]/font[1]")).getText();
 
-		/*if(Noflights.contains("No Seats Avaialble")) {
+		if(Noflights.contains("No Seats Avaialble")) {
 
-			test.pass("No flights found with the selected search critera");
+			TC1_FlightReservation.test.pass("No flights found with the selected search critera");
 		}
 		else
 		{
-			test.log(Status.INFO, "This step shows usage of log(status, details)");
+			TC1_FlightReservation.test.log(Status.INFO, "This step shows usage of log(status, details)");
 		}
-		extent.flush();*/
+		// calling flush writes everything to the log file
+		TC1_FlightReservation.extent.flush();
 	}
 
 }
